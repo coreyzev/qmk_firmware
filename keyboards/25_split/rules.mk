@@ -70,4 +70,4 @@ SLEEP_LED_ENABLE = no    # Breathing sleep LED during USB suspend
 
 CUSTOM_MATRIX = yes
 
-LAYOUTS = ortho_5x12
+LAYOUTS = ortho_5x5
