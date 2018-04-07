@@ -60,6 +60,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 void matrix_init_user(void) { // Runs boot tasks for keyboard
-    rgblight_enable(void);
-    rgblight_effect_christmas(void);
+    rgblight_enable();
+    rgblight_sethsv(0,255,255);
+    rgblight_mode(10);
 };
