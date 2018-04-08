@@ -45,7 +45,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------|
  * |   A  |   S  |   D  |   F  |   G  |
  * |------+------+------+------+------|
- * |   Z  |   X  |   C  |   V  |   B  |
+ * |   Z  |   X  |   C  |   V  | BSPC |
  * | LCTL | LALT | Lr 3 | Lr 4 | Lr 2 | (momentary toggle)
  * `----------------------------------'
  *
@@ -58,7 +58,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * +-------------+------+------+------|
  * |   H  |   J  |   K  |   L  |  ESC |
  * +------|------+------+------+------|
- * |   N  |   M  |   ,  |   .  | ENTR |
+ * | SPACE|   B  |   N  |   M  | ENTR |
  * | Lr 1 | Lr 5 | RALT | RCTL | RSHFT| (momentary toggle)
  * `----------------------------------'
  */
